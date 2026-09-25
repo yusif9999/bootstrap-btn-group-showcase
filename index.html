@@ -1,0 +1,201 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>TechMeet 2026 - Technology Conference </title> 
+</head> 
+<body class="bg-light"> 
+    <header class="container-fluid py-3 bg-white border-bottom shadow-sm"> 
+        <div class="container"> 
+            <div class="row align-items-center"> 
+                <div class="col-6"> 
+                    <div> 
+                        <h1 class="fs-4 fw-bold text-primary mb-0 text-nowrap"> 
+                            <i class="bi bi-cpu-fill"></i> 
+                            TechMeet '26 
+                        </h1> 
+                    </div> 
+                </div> 
+                <div class="col-6"> 
+                    <nav class="d-flex justify-content-end"> 
+                        <ul class="list-unstyled d-flex mb-0 align-items-center"> 
+                            <li class="d-none d-md-inline-block"> 
+                                <a href="#" class="text-decoration-none text-secondary fw-bold">Home</a> 
+                            </li> 
+                            <li class="d-none d-md-inline-block"> 
+                                <a href="#" class="text-decoration-none mx-4 text-secondary fw-bold">Tickets</a> 
+                            </li> 
+                            <li class="d-none d-md-inline-block"> 
+                                <a href="#" class="text-decoration-none text-secondary fw-bold">Schedule</a> 
+                            </li> 
+                            <li class="d-inline-block d-md-none"> 
+                                <a href="#" class="fs-5"> 
+                                    <i class="fa-solid fa-bars"></i> 
+                                </a> 
+                            </li> 
+                        </ul> 
+                    </nav> 
+                </div> 
+            </div> 
+        </div> 
+    </header> 
+    <main class="container-fluid px-0"> 
+        <section class="bg-white py-5 border-bottom mb-5 px-2"> 
+            <div class="alert alert-danger mx-auto text-center border border-danger w-100"> 
+                <p class="mb-0"> 
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i> <strong>Last Call :</strong> Early bird discounts end tonight! 
+                </p> 
+            </div> 
+            <div class="text-center"> 
+                <h2 class="pt-3 display-4 fw-bold">Those Who Shape the Future Meet</h2> 
+                <p class="fs-5 pt-2 fw-light opacity-75">Meet leading figures in software, design, and artificial intelligence, discover the latest technologies.</p> 
+                <div class="mt-4"> 
+                    <a href="#" class="text-decoration-none btn btn-primary px-4 rounded-3">Get Tickets Now</a> 
+                </div> 
+            </div> 
+        </section> 
+        <section class="container bg-white mb-5 p-5 rounded-3 shadow-sm"> 
+            <div class="row g-4"> 
+                <div class="col-12 col-lg-6"> 
+                    <div class="py-5"> 
+                        <h3 class="pb-2 border-bottom">Choose Your Ticket</h3> 
+                        <h4 class="fs-5 pt-3">1. Ticket Type</h4> 
+                        <div class="btn-group w-100" role="group"> 
+                            <input type="radio" class="btn-check" id="btnStandart" name="btnRadioDesk" checked> 
+                            <label for="btnStandart" class="btn btn-outline-primary">Standard</label> 
+                            <input type="radio" class="btn-check" id="btnStudent" name="btnRadioDesk"> 
+                            <label for="btnStudent" class="btn btn-outline-primary"> Student</label> 
+                            <input type="radio" class="btn-check" id="btnVip" name="btnRadioDesk"> 
+                            <label for="btnVip" class="btn btn-outline-primary">VIP</label> 
+                        </div> 
+                        <h4 class="fs-5 pt-4">2. Number of People</h4> 
+                        <div class="btn-toolbar mb-3"> 
+                            <div class="btn-group"> 
+                                <button class="btn btn-secondary">1</button> 
+                                <button class="btn btn-secondary">2</button> 
+                                <button class="btn btn-secondary">3</button> 
+                                <button class="btn btn-secondary">4+</button> 
+                            </div> 
+                        </div> 
+                        <h4 class="fs-5 pt-2">3. Extras</h4> 
+                        <div class="btn-group"> 
+                            <input type="checkbox" class="btn-check" id="btnCheck"> 
+                            <label for="btnCheck" class="btn btn-outline-success"> 
+                                <i class="bi bi-cup-hot-fill me-1"></i> 
+                                 Lunch 
+                            </label> 
+                            <div class="btn-group" role="group"> 
+                                <button class="btn btn-dark dropdown-toggle show" id="btnGroupDrop" data-bs-toggle="dropdown">Gift Package</button> 
+                                <ul class="dropdown-menu" aria-labelledby="btnGroupDrop"> 
+                                    <li> 
+                                        <a href="#" class="dropdown-item">Event T-Shirt Only </a> 
+                                    </li> 
+                                    <li> 
+                                        <a href="#" class="dropdown-item">Full Set (Mug, Bag, Notebook)</a> 
+                                    </li> 
+                                </ul> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="col-12 col-lg-6"> 
+                    <div> 
+                        <img src="img/img.avif" alt="" class="img-fluid object-fit-cover rounded-3"> 
+                        <div> 
+                            <h4 class="fs-5 text-center py-3 mb-0">VIP Benefits </h4> 
+                            <p class="small text-center text-secondary">VIP ticket holders have the right to free entry to the backstage area, private networking room, and meet-and-greet cocktail with speakers.</p> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </section> 
+        <section class="container mb-5"> 
+            <h2 class="fw-bold text-center mb-4">Event Schedule </h2> 
+            <div class="table-responsive"> 
+                <table class="table w-100 table-bordered text-center align-middle"> 
+                    <thead class="table-dark"> 
+                        <tr> 
+                            <th>Time</th> 
+                            <th>Session</th> 
+                            <th>Speaker </th> 
+                            <th>Details</th> 
+                        </tr> 
+                    </thead> 
+                    <tbody> 
+                        <tr> 
+                            <td>09:30</td> 
+                            <td>Opening and Welcome</td> 
+                            <td> 
+                                <img src="img/speaker1.jpg" alt="Speaker 1" class="rounded-circle"> 
+                                Ali Yilmaz 
+                            </td> 
+                            <td>Future Technologies Panel</td> 
+                        </tr> 
+                        <tr> 
+                            <td>11:00</td> 
+                            <td>Innovations in Frontend Ecosystem</td> 
+                            <td> 
+                                <img src="img/speaker2.jpg" alt="Speaker 2" class="rounded-circle"> 
+                                Ayse Demir 
+                            </td> 
+                            <td>React vs Vue 2026 Analysis</td> 
+                        </tr> 
+                        <tr class="thirdTr"> 
+                            <td class="text-danger fw-bold">12:30</td> 
+                            <td colspan="3" class="py-3 table-warning fw-bold"> 
+                                <i class="bi bi-egg-fried me-2"></i> 
+                                 Lunch Break & Networking 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <td>14:00</td> 
+                            <td>Artificial Intelligence and Software</td> 
+                            <td> 
+                                <img src="img/speaker3.jpg" alt="Speaker 3" class="rounded-circle"> 
+                                Can Y 
+                            </td> 
+                            <td> 
+                                Evolution of AI coding tools 
+                            </td> 
+                        </tr> 
+                    </tbody> 
+                </table> 
+            </div> 
+        </section> 
+    </main> 
+    
+    <footer class="container-fluid bg-dark py-4"> 
+        <div class="container"> 
+            <div class="row align-items-center"> 
+                <div class="col-12 col-md-6"> 
+                    <p class="text-white mb-4 mb-md-0 text-center text-md-start"> 
+                        <i class="bi bi-cpu-fill"></i> 
+                        <strong>TechMeet '26</strong> 
+                          All Rights Reserved 
+                    </p> 
+                </div> 
+                <div class="col-12 col-md-6"> 
+                    <div class="fs-4 text-center text-md-end"> 
+                        <a href="#" class="text-light"> 
+                            <i class="bi bi-twitter-x"></i> 
+                        </a> 
+                        <a href="#" class="text-light mx-3"> 
+                            <i class="bi bi-linkedin"></i> 
+                        </a> 
+                        <a href="#" class="text-light"> 
+                            <i class="bi bi-github"></i> 
+                        </a> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script> 
+</body> 
+</html>
